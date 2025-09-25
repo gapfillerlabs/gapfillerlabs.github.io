@@ -5,18 +5,29 @@ theme: just-the-docs
 url: https://gapfillerlabs.github.io/
 
 aux_links:
-  Gap Filler Labs on Github: https://gapfillerlabs.github.io/
-aux_links_new_tab: false
+  Gap Filler Labs on Github: https://github.com/gapfillerlabs/
+aux_links_new_tab: true
 
 collections:
-  # Define a collection named "tests", its documents reside in the "_ingestor" directory
+  # Define a collection named "ingestor", its documents reside in the "_ingestor" directory
   ingestor:
+    permalink: "/:collection/:path/"
+    output: true
+  bpmn-collab:
+    permalink: "/:collection/:path/"
+    output: true
+  pixel-pointer:
     permalink: "/:collection/:path/"
     output: true
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
-    # Reference the "tests" collection
     ingestor:
-      # Give the collection a name
       name: Ingestor
+    bpmn-collab:
+      name: BPMN Collab
+    pixel-pointer:
+      name: Pixel Pointer
+    unified-automation-document:
+      name: Unified Automation Document
+    
