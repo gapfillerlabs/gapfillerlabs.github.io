@@ -13,10 +13,10 @@ collections:
   ingestor:
     permalink: "/:collection/:path/"
     output: true
-  bpmn-collab:
+  bpmn_collab:
     permalink: "/:collection/:path/"
     output: true
-  pixel-pointer:
+  pixel_pointer:
     permalink: "/:collection/:path/"
     output: true
 just_the_docs:
@@ -24,10 +24,10 @@ just_the_docs:
   collections:
     ingestor:
       name: Ingestor
-    bpmn-collab:
+    bpmn_collab:
       name: BPMN Collab
-    pixel-pointer:
+    pixel_pointer:
       name: Pixel Pointer
-    unified-automation-document:
+    unified_automation_document:
       name: Unified Automation Document
     
