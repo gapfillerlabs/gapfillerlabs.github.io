@@ -19,6 +19,9 @@ collections:
   pixel_pointer:
     permalink: "/:collection/:path/"
     output: true
+  unified_automation_document:
+    permalink: "/:collection/:path/"
+    output: true
 just_the_docs:
   # Define which collections are used in just-the-docs
   collections:
